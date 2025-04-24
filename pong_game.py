@@ -85,3 +85,9 @@ while running:
     clock.tick(60)
 
 pygame.quit()
+
+# Additional comments added to explain the code:
+# - The game loop handles events, updates positions, and redraws the screen.
+# - Paddle movement is controlled by W/S keys for the left paddle and UP/DOWN keys for the right paddle.
+# - Ball collisions with walls and paddles are detected and handled to reverse direction.
+# - If the ball goes out of bounds, it resets to the center with a random direction.
